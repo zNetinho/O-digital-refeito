@@ -1,0 +1,52 @@
+.container__list__partnar {
+  display: flex;
+  justify-content: center;
+  height: 145px;
+}
+.container__list__partnar .title {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 8.5rem;
+}
+.container__list__partnar .title h2.title__text {
+  font-size: 22px;
+  color: #605BFF;
+}
+.container__list__partnar .list__partnar {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  margin-top: 1rem;
+}
+.container__list__partnar .list__partnar img {
+  width: 90%;
+}
+.container__list__partnar .list__rating {
+  margin-left: 4rem;
+  position: relative;
+  bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.container__list__partnar .list__rating img {
+  width: 76%;
+}
+.container__list__partnar .list__rating p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.container__list__partnar .list__rating .list__rating__number {
+  color: #222;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+.container__list__partnar .list__rating .list__rating__text {
+  color: #605BFF;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+}/*# sourceMappingURL=ListPartnar.css.map */

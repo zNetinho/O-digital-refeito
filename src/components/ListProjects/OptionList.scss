@@ -1,0 +1,27 @@
+.options-list-container {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 680px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+
+    .options-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper__imagem {
+
+        .image-selected {
+
+            img {
+                width: 825px;
+                position: relative;
+                right: 0.8rem;
+            }
+        }
+    }
+
+    
+}

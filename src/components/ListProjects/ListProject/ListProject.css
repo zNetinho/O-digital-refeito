@@ -1,0 +1,19 @@
+.wrapper__list__item {
+  width: 275px;
+}
+.wrapper__list__item .list-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-right: 8px solid #E5F6FF;
+  padding: 0.3rem 0rem;
+}
+.wrapper__list__item .list-item img {
+  padding: 20px 20px;
+  border-radius: 61.903px;
+  background: #fff;
+  box-shadow: 0px 10px 45px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper__list__item .selected {
+  border-right: 8px solid #4643D3;
+}/*# sourceMappingURL=ListProject.css.map */

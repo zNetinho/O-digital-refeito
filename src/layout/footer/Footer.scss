@@ -1,0 +1,130 @@
+@import "../../styles/variables";
+
+.footer {
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+
+    padding: 4.5rem 0 0 0;
+
+    height: 300px;
+
+    background: linear-gradient(135deg, #ffdead 0%, rgba(250, 239, 227, 0) 100%);
+    backdrop-filter: blur(21px);
+
+    .footer__column {
+        width: 180px;
+        .logo {
+            margin: 0;
+
+            img {
+                width: 165px;
+            }
+        }
+
+        h2 {
+            margin-bottom: 1.5rem;
+            font-size: 21px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 14px;
+                    font-family: $font-secondary;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                a:hover {
+                    color: #f88d31;
+                }
+            }
+        }
+
+        p {
+            width: 70%;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .footer__contact {
+            display: flex;
+            gap: 0.8rem;
+            margin: 1.5rem 0;
+
+            a {
+                font-weight: 600;
+                text-decoration: none;
+                color: $color-preta;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .footer__column__first {
+        width: 300px;
+        // margin-right: 5rem;
+        .footer__column__subscribe {
+            display: flex;
+            flex-direction: column;
+
+            width: 85%;
+
+            .subcribre__input {
+                display: flex;
+                margin: 1.6rem 0;
+
+                input {
+                    padding-right: 2.8rem;
+                    padding-left: 0.7rem;
+                    border: none;
+
+                    &::placeholder {
+                        font-weight: 500;
+                    }
+                }
+
+                span {
+                    position: relative;
+                    right: 3rem;
+                    top: -0.001rem;
+                    padding: 12px;
+                    background: #f4dcdc;
+                }
+
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-preta;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .footer__column__second {
+        width: 150px;
+        margin: 0 1rem;
+    }
+
+    .footer__column__third {
+        width: 150px;
+        margin: 0 1rem;
+    }
+
+    .footer__column__four {
+        width: 320px;
+    }
+    
+    hr {
+        height: 2px;
+    }
+}

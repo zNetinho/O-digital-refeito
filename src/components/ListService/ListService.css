@@ -1,0 +1,30 @@
+.wrapper__services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.wrapper__services .wrapper__services__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 4rem;
+}
+.wrapper__services .wrapper__services__top .wrapper__services__top__title {
+  color: #222;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.wrapper__services .wrapper__services__top hr {
+  width: 65px;
+  height: 5px;
+  background: #FF873E;
+  border-radius: 50px;
+  border: none;
+}/*# sourceMappingURL=ListService.css.map */

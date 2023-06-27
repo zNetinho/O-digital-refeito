@@ -1,0 +1,63 @@
+@mixin caixa {
+        .caixa {
+            position: relative;
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+        
+        .caixa::before,
+        .caixa::after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #000;
+        }
+        
+        .caixa::before {
+            top: -5px;
+            left: -5px;
+        }
+        
+        .caixa::after {
+            bottom: -5px;
+            right: -5px;
+        }
+        
+        .caixa::before::before,
+        .caixa::before::after,
+        .caixa::after::before,
+        .caixa::after::after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #000;
+        }
+        
+        .caixa::before::before {
+            top: -5px;
+            right: -5px;
+        }
+        
+        .caixa::before::after {
+            bottom: -5px;
+            right: -5px;
+        }
+        
+        .caixa::after::before {
+            top: -5px;
+            left: -5px;
+        }
+        
+        .caixa::after::after {
+            bottom: -5px;
+            left: -5px;
+        }
+    }
+  
+  
+  
+  
+  

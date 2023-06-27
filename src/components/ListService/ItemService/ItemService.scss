@@ -1,0 +1,56 @@
+@import '../../../styles/variables.scss';
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .item__service:nth-child(1),
+    .item__service:nth-child(2) {
+        margin-bottom: 2.5rem;
+    }
+
+    .item__service:nth-child(1),
+    .item__service:nth-child(3) {
+        margin-right: 2.5rem;
+    }
+
+    .item__service:nth-child(1)::before {
+    }
+
+    .item__service {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 1.5rem 1rem;
+
+        i {
+            margin-right: 0.7rem;
+        }
+
+        .item__service__texto {
+            margin-right: 2rem;
+        }
+        svg:hover stroke {
+            fill: #040404;
+        }
+    }
+
+    .item__service:hover {
+        background: linear-gradient(142deg, #868686 0%, #070707 100%);
+
+        .item__service__texto {
+            color: $color-branca;
+
+            i {
+                
+            }
+        }
+
+
+        svg path stroke {
+            color: #fff;
+        }; 
+    }
+}

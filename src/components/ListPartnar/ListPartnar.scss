@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+
+.container__list__partnar {
+    display: flex;
+    justify-content: center;
+    height: 145px;
+
+    .title {
+        position: absolute;
+        bottom: .5rem;
+        left: 8.5rem;
+
+        h2.title__text {
+            font-size: 22px;
+            color: $color-primary;
+        }
+    }
+
+    .list__partnar {
+        display: flex;
+        list-style: none;
+        gap: 2.5rem;
+        margin-top: 1rem;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .list__rating {
+        margin-left: 4rem;
+        position: relative;
+        bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        
+        img {
+            width: 76%;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .list__rating__number {
+            color: #222;
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 70px;
+            letter-spacing: -1px;
+        }
+
+        .list__rating__text {
+            color: $color-primary;
+            font-size: 20px;
+            font-family: $font-secondary;
+            line-height: 28px;
+            font-weight: 500;
+        }
+    }
+}
